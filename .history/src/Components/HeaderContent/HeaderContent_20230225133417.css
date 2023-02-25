@@ -1,0 +1,4 @@
+.header-content > h1 {
+    font-size: calc(3.5 * 1rem);
+    font-weight: 700;
+}

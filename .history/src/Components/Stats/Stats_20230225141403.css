@@ -1,0 +1,14 @@
+.stats {
+    background-color: white;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    color: black;
+    width: 80vw;
+    margin: 5vh auto;
+}
+
+.stats-grid1 {
+    display: flex;
+    justify-content: space-between;
+}

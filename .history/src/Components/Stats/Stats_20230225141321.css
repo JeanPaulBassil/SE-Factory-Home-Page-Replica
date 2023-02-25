@@ -1,0 +1,11 @@
+.stats {
+    background-color: white;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    color: black;
+}
+
+.stats-grid1 {
+    display: flex;
+}

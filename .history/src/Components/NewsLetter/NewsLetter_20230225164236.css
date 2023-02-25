@@ -1,0 +1,10 @@
+.news-letter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.news-letter > h3 {
+    font-weight: 400;
+}

@@ -1,0 +1,19 @@
+.extras {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: black;
+    align-items: center
+}
+
+.extras > div {
+    margin: 3rem;
+}
+
+.partners {
+    width: 70vw;
+}
+
+.testimonial {
+    width: 40vw;
+}

@@ -1,0 +1,14 @@
+.programs {
+    background-color: #0b0;
+    width: 100vw;
+    height: 100vh;
+    /* color: black; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.programs > h2 {
+    margin: auto
+}

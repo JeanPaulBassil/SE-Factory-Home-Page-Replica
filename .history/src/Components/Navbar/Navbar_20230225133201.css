@@ -1,0 +1,15 @@
+.navbar {
+    margin-top: 5px;
+    margin: auto;
+    height: 130px;
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar > img {
+    height: 80px;
+    width: 80px;
+}

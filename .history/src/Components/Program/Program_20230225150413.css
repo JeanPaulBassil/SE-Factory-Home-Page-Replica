@@ -1,0 +1,8 @@
+.program {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    align-items:center;
+    margin:0 2rem;
+    background-color: white
+}

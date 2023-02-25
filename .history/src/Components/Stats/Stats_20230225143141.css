@@ -1,0 +1,25 @@
+.stats {
+    background-color: white;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    color: black;
+    width: 80vw;
+    margin: auto;
+}
+
+.stats-grid1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stats-grid2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.stats-grid2 > img {
+    width: 40vw;
+}

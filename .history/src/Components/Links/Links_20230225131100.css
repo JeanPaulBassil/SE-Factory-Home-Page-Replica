@@ -1,0 +1,72 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* .apply {
+    display: flex;
+    flex-direction: column;
+} */
+
+/* Styles for the drop-down container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Style for the drop-down button */
+  .dropbtn {
+    background-color: #fff; /* White background color */
+    color: #333; /* Text color */
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Styles for the drop-down menu */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #fff; /* White background color */
+    min-width: 160px;
+    width: 300px; /* Set the width of the dropdown menu */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    left: auto;
+    right: 0;
+  }
+  
+  /* Styles for the drop-down menu links */
+  .dropdown-content a {
+    color: #333; /* Text color */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Style for the active drop-down menu link */
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Show the drop-down menu when the button is clicked */
+  .dropdown:hover > .dropdown-content {
+    display: block;
+  }
+  
+  /* Remove the default outline for the button when it's focused */
+  .dropbtn:focus {
+    outline: none;
+  }
+  

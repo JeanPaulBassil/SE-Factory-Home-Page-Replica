@@ -1,0 +1,36 @@
+.program {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    align-items:center;
+    margin:0 2rem;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 1rem;
+    box-shadow: 10px 1px 0px black;
+}
+
+.program > h3 {
+    margin: 1rem 0;
+    align-self: flex-start;
+    color: #cccccc;
+}
+
+.program > h2 {
+    line-height: 2rem;
+    font-size: 1.7rem;
+}
+
+.program > p {
+    margin: 1rem 0;
+}
+
+.program > a {
+    color: #25e200;
+    align-self: flex-start;
+}
+.program > a > p {
+    display: inline;
+    color: black
+}
